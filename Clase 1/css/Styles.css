@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(217, 224, 224);
+}
+#Tittle{
+    text-align: center;
+    font-size: 40px;
+    border: solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+#Tittle_2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: solid black;
+}
+h2{
+    
+    margin-right: 10px;
+    border-radius: 20px;
+    
+}
+p{
+    border: solid black;
+    padding: 10px;
+}
