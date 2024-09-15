@@ -1,0 +1,53 @@
+body, html{
+    height: 100%;
+}
+body{
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+46,6d0019+100;Brown+Red+3D */
+background: linear-gradient(to right,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 46%,rgba(109,0,25,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+}
+
+h1, div{
+    text-align: center;
+}
+h1{
+    margin-bottom: 90px;
+     font-family: "Fascinate Inline", system-ui;
+     font-weight: 400;
+     font-style: normal;   
+}
+
+#tittle-1{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    border-radius: 20px;
+    background: hsla(222, 76%, 42%, 1);
+    background: linear-gradient(90deg, hsla(222, 76%, 42%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(222, 76%, 42%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(222, 76%, 42%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    padding-top: 50px;
+    box-shadow: 10px 10px;
+}
+
+
+#Pagraph-1{
+    background: hsla(222, 76%, 42%, 1);
+    background: linear-gradient(90deg, hsla(222, 76%, 42%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(222, 76%, 42%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(222, 76%, 42%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+#local{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+
+}
+#google{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;  
+}
+
+
