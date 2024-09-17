@@ -1,0 +1,53 @@
+body{
+    background: rgb(238,174,202);background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.Introduccion{
+    background: rgb(131,58,180);background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%, rgba(252,176,69,1) 100%);
+    border-radius: 20px; border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-box-shadow: 11px 11px 39px 5px rgba(45, 32, 228, 0.4);
+    -moz-box-shadow: 11px 11px 39px 5px rgba(28, 30, 158, 0.4);
+    box-shadow: 11px 11px 39px 5px rgba(11, 14, 189, 0.4); 
+    margin: 100px;  
+}
+
+.Li{
+    background: #34e89e;
+    background: linear-gradient(to right, #34e89e, #0f3443); 
+    background: -webkit-linear-gradient(to right, #34e89e, #0f3443); /* Chrome 10-25, Safari 5.1-6 */
+    -webkit-box-shadow: 11px 11px 39px 5px rgba(45, 32, 228, 0.4);
+    -moz-box-shadow: 11px 11px 39px 5px rgba(28, 30, 158, 0.4);
+    box-shadow: 11px 11px 39px 5px rgba(11, 14, 189, 0.4); 
+    margin: 100px;  
+    padding: 50px;
+    border-radius: 20px;
+    
+}
+ul.milista>li:nth-child(2n+1){
+    color: azure;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.9em rgba(8, 30, 233, 0.932);
+}
+
+ul.milista>li:nth-child(2n){
+    color: black;
+    font-size: 67px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.9em rgba(8, 30, 233, 0.932);
+}
+ul.milista li:hover{
+    text-decoration:solid;
+    text-transform: lowercase;
+    color: rgba(212, 233, 26, 0.562);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    cursor: zoom-out;
+    display: inline;
+}
